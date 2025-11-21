@@ -7,10 +7,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Create a file
-              run: echo "Welcome to Bengaluru" > file3.txt
+              run: echo "Welcome to Bengaluru Guys" > test2.txt
 
             - name: Display the content of a file
-              run: cat file3.txt
+              run: cat test2.txt
 
             - name: Display total available files
               run: ls -lrth
