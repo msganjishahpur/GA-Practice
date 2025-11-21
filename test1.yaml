@@ -7,10 +7,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Create a file
-              run: echo "Welcome to Bengaluru Guys" > test2.txt
+              run: echo "Welcome to Bengaluru Guys" > new.txt
 
             - name: Display the content of a file
-              run: cat test2.txt
+              run: cat new.txt
 
             - name: Display total available files
               run: ls -lrth
+
+            - name: Show the present working directory
+              run: pwd
