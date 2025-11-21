@@ -10,5 +10,5 @@ jobs:
             - name: Hello display
               run: echo "Hello Diya Ganji"
 
-            - name: Display the date
+            - name: Display the current date
               run: date 
