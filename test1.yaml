@@ -10,7 +10,7 @@ jobs:
               run: echo "Welcome to Bengaluru" > file3.txt
 
             - name: Display the content of a file
-              run: cat file2.txt
+              run: cat file3.txt
 
             - name: Display total available files
               run: ls -lrth
