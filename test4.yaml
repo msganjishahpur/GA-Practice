@@ -1,0 +1,13 @@
+name: Files Operations in Github
+
+on: push
+
+jobs: 
+    files:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Create a file
+              run: echo "Welcome to Akka house Shreeyan" > new.txt
+
+            - name: Display the content of a file
+              run: cat file2.txt

@@ -1,0 +1,19 @@
+name: Files Operations in Github
+
+on: push
+
+jobs:
+    files:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Create a file
+              run: echo "Hello Mahesh" > m1.txt
+
+            - name: Display the content of a file
+              run: cat m1.txt
+
+            - name: print current date
+              run: date
+
+            - name: print current working directory
+              run: pwd
